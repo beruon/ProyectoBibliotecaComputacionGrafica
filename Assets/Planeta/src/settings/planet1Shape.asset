@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb04c1b3cbe2a6a48beb3c7040b9825c, type: 3}
+  m_Name: planet1Shape
+  m_EditorClassIdentifier: 
+  planetRadius: 4.32
+  noiseLayers:
+  - enabled: 1
+    useFirstLayerAsMask: 1
+    noiseSettings:
+      filterType: 0
+      simpleNoiseSettings:
+        strength: 0.5
+        numLayers: 1
+        baseRoughness: 25.77
+        roughness: 5.15
+        persistance: -0.52
+        center: {x: 5.35, y: 0.03, z: 0}
+        minValue: 0.55
+      rigidNoiseSettings:
+        strength: 0.16
+        numLayers: 2
+        baseRoughness: 2.33
+        roughness: 0
+        persistance: 1.54
+        center: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 0
+      deltatimenoisesettings:
+        strength: 1
+        numLayers: 1
+        baseRoughness: 1
+        roughness: 1
+        persistance: 1
+        center: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 0
+        deltaTime: 0.1
+  - enabled: 1
+    useFirstLayerAsMask: 0
+    noiseSettings:
+      filterType: 0
+      simpleNoiseSettings:
+        strength: 1.4
+        numLayers: 2
+        baseRoughness: 3.26
+        roughness: 2.07
+        persistance: -1.17
+        center: {x: 0.06, y: 0, z: 0}
+        minValue: 0.84
+      rigidNoiseSettings:
+        strength: 0.16
+        numLayers: 2
+        baseRoughness: 2.33
+        roughness: 0
+        persistance: 1.54
+        center: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 0
+      deltatimenoisesettings:
+        strength: 1
+        numLayers: 1
+        baseRoughness: 1
+        roughness: 1
+        persistance: 1
+        center: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 0
+        deltaTime: 0.1
